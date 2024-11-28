@@ -1,0 +1,4 @@
+source;share/priority_tasks/local_setup.bash
+source;share/priority_tasks/local_setup.dsv
+source;share/priority_tasks/local_setup.sh
+source;share/priority_tasks/local_setup.zsh

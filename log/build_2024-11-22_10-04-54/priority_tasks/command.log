@@ -1,0 +1,6 @@
+Invoking command in '/home/teja/tal/build/priority_tasks': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/teja/tal/src/priority_tasks -DCMAKE_INSTALL_PREFIX=/home/teja/tal/install/priority_tasks
+Invoked command in '/home/teja/tal/build/priority_tasks' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/teja/tal/src/priority_tasks -DCMAKE_INSTALL_PREFIX=/home/teja/tal/install/priority_tasks
+Invoking command in '/home/teja/tal/build/priority_tasks': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/teja/tal/build/priority_tasks -- -j2 -l2
+Invoked command in '/home/teja/tal/build/priority_tasks' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/teja/tal/build/priority_tasks -- -j2 -l2
+Invoking command in '/home/teja/tal/build/priority_tasks': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/teja/tal/build/priority_tasks
+Invoked command in '/home/teja/tal/build/priority_tasks' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/teja/tal/build/priority_tasks

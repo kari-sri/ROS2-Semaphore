@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.003135] (priority_tasks) JobQueued: {'identifier': 'priority_tasks', 'dependencies': OrderedDict()}
+[0.003207] (priority_tasks) JobStarted: {'identifier': 'priority_tasks'}
+[0.053800] (priority_tasks) JobProgress: {'identifier': 'priority_tasks', 'progress': 'cmake'}
+[0.054594] (priority_tasks) Command: {'cmd': ['/usr/bin/cmake', '/home/teja/tal/src/priority_tasks', '-DCMAKE_INSTALL_PREFIX=/home/teja/tal/install/priority_tasks'], 'cwd': '/home/teja/tal/build/priority_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/tal/src/priority_tasks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1801,unix/teja-VirtualBox:/tmp/.ICE-unix/1801'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d24d236a_e163_4f5e_9ed6_06963988d7f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3KLSX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/tal/build/priority_tasks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097958] (-) TimerEvent: {}
+[0.199283] (-) TimerEvent: {}
+[0.300794] (-) TimerEvent: {}
+[0.402184] (-) TimerEvent: {}
+[0.503229] (-) TimerEvent: {}
+[0.604528] (-) TimerEvent: {}
+[0.705951] (-) TimerEvent: {}
+[0.768302] (priority_tasks) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.807124] (-) TimerEvent: {}
+[0.912213] (-) TimerEvent: {}
+[1.014862] (-) TimerEvent: {}
+[1.115899] (-) TimerEvent: {}
+[1.177778] (priority_tasks) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.210540] (priority_tasks) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.216026] (-) TimerEvent: {}
+[1.317331] (-) TimerEvent: {}
+[1.410054] (priority_tasks) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.413072] (priority_tasks) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.415211] (priority_tasks) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.418778] (-) TimerEvent: {}
+[1.419442] (priority_tasks) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.426027] (priority_tasks) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.518956] (-) TimerEvent: {}
+[1.619861] (-) TimerEvent: {}
+[1.643551] (priority_tasks) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.645338] (priority_tasks) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.645488] (priority_tasks) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.645562] (priority_tasks) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.689814] (priority_tasks) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.720897] (-) TimerEvent: {}
+[1.838873] (-) TimerEvent: {}
+[1.941238] (-) TimerEvent: {}
+[1.966255] (priority_tasks) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.042776] (-) TimerEvent: {}
+[2.143912] (-) TimerEvent: {}
+[2.244806] (-) TimerEvent: {}
+[2.259947] (priority_tasks) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.345904] (-) TimerEvent: {}
+[2.436535] (priority_tasks) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.446364] (-) TimerEvent: {}
+[2.454460] (priority_tasks) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.516123] (priority_tasks) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.546807] (-) TimerEvent: {}
+[2.570529] (priority_tasks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.629908] (priority_tasks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.647073] (-) TimerEvent: {}
+[2.748924] (-) TimerEvent: {}
+[2.830162] (priority_tasks) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.838788] (priority_tasks) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.849674] (-) TimerEvent: {}
+[2.952143] (-) TimerEvent: {}
+[3.053721] (-) TimerEvent: {}
+[3.114560] (priority_tasks) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.154758] (-) TimerEvent: {}
+[3.160012] (priority_tasks) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.236284] (priority_tasks) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.255553] (-) TimerEvent: {}
+[3.267240] (priority_tasks) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.356640] (-) TimerEvent: {}
+[3.465298] (-) TimerEvent: {}
+[3.547324] (priority_tasks) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.547496] (priority_tasks) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.566340] (-) TimerEvent: {}
+[3.666914] (-) TimerEvent: {}
+[3.714395] (priority_tasks) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.719835] (priority_tasks) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.767059] (-) TimerEvent: {}
+[3.867884] (-) TimerEvent: {}
+[3.984642] (-) TimerEvent: {}
+[4.005184] (priority_tasks) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.021906] (priority_tasks) StdoutLine: {'line': b'-- Generating done\n'}
+[4.027991] (priority_tasks) StdoutLine: {'line': b'-- Build files have been written to: /home/teja/tal/build/priority_tasks\n'}
+[4.035097] (priority_tasks) CommandEnded: {'returncode': 0}
+[4.035621] (priority_tasks) JobProgress: {'identifier': 'priority_tasks', 'progress': 'build'}
+[4.035652] (priority_tasks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/teja/tal/build/priority_tasks', '--', '-j2', '-l2'], 'cwd': '/home/teja/tal/build/priority_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/tal/src/priority_tasks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1801,unix/teja-VirtualBox:/tmp/.ICE-unix/1801'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d24d236a_e163_4f5e_9ed6_06963988d7f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3KLSX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/tal/build/priority_tasks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.085884] (-) TimerEvent: {}
+[4.164283] (priority_tasks) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/priority_tasks.dir/src/priority_tasks.cpp.o\x1b[0m\n'}
+[4.185731] (-) TimerEvent: {}
+[4.286851] (-) TimerEvent: {}
+[4.387972] (-) TimerEvent: {}
+[4.489025] (-) TimerEvent: {}
+[4.592777] (-) TimerEvent: {}
+[4.695163] (-) TimerEvent: {}
+[4.795810] (-) TimerEvent: {}
+[4.897072] (-) TimerEvent: {}
+[4.998515] (-) TimerEvent: {}
+[5.099030] (-) TimerEvent: {}
+[5.199410] (-) TimerEvent: {}
+[5.301150] (-) TimerEvent: {}
+[5.402796] (-) TimerEvent: {}
+[5.505274] (-) TimerEvent: {}
+[5.605872] (-) TimerEvent: {}
+[5.706337] (-) TimerEvent: {}
+[5.807820] (-) TimerEvent: {}
+[5.908690] (-) TimerEvent: {}
+[6.009012] (-) TimerEvent: {}
+[6.109946] (-) TimerEvent: {}
+[6.211163] (-) TimerEvent: {}
+[6.312237] (-) TimerEvent: {}
+[6.412706] (-) TimerEvent: {}
+[6.513496] (-) TimerEvent: {}
+[6.614942] (-) TimerEvent: {}
+[6.715818] (-) TimerEvent: {}
+[6.816428] (-) TimerEvent: {}
+[6.916859] (-) TimerEvent: {}
+[7.017221] (-) TimerEvent: {}
+[7.117911] (-) TimerEvent: {}
+[7.218320] (-) TimerEvent: {}
+[7.319006] (-) TimerEvent: {}
+[7.419771] (-) TimerEvent: {}
+[7.522518] (-) TimerEvent: {}
+[7.623026] (-) TimerEvent: {}
+[7.723552] (-) TimerEvent: {}
+[7.833520] (-) TimerEvent: {}
+[8.399174] (-) TimerEvent: {}
+[9.378953] (-) TimerEvent: {}
+[9.795363] (-) TimerEvent: {}
+[10.037927] (-) TimerEvent: {}
+[10.370819] (-) TimerEvent: {}
+[10.473996] (-) TimerEvent: {}
+[10.680331] (-) TimerEvent: {}
+[10.820614] (-) TimerEvent: {}
+[11.158790] (-) TimerEvent: {}
+[11.262905] (-) TimerEvent: {}
+[11.364185] (-) TimerEvent: {}
+[11.464541] (-) TimerEvent: {}
+[11.567144] (-) TimerEvent: {}
+[11.672744] (-) TimerEvent: {}
+[11.675345] (priority_tasks) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable priority_tasks\x1b[0m\n'}
+[11.773790] (-) TimerEvent: {}
+[11.875139] (-) TimerEvent: {}
+[11.976812] (-) TimerEvent: {}
+[11.977879] (priority_tasks) StdoutLine: {'line': b'[100%] Built target priority_tasks\n'}
+[12.008303] (priority_tasks) CommandEnded: {'returncode': 0}
+[12.077439] (-) TimerEvent: {}
+[12.101980] (priority_tasks) JobProgress: {'identifier': 'priority_tasks', 'progress': 'install'}
+[12.141900] (priority_tasks) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/teja/tal/build/priority_tasks'], 'cwd': '/home/teja/tal/build/priority_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/tal/src/priority_tasks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1801,unix/teja-VirtualBox:/tmp/.ICE-unix/1801'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d24d236a_e163_4f5e_9ed6_06963988d7f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3KLSX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/tal/build/priority_tasks'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.155070] (priority_tasks) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.155283] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/lib/priority_tasks/priority_tasks\n'}
+[12.156535] (priority_tasks) StdoutLine: {'line': b'-- Set runtime path of "/home/teja/tal/install/priority_tasks/lib/priority_tasks/priority_tasks" to ""\n'}
+[12.156932] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/ament_index/resource_index/package_run_dependencies/priority_tasks\n'}
+[12.157175] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/ament_index/resource_index/parent_prefix_path/priority_tasks\n'}
+[12.158167] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/environment/ament_prefix_path.sh\n'}
+[12.158302] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/environment/ament_prefix_path.dsv\n'}
+[12.158967] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/environment/path.sh\n'}
+[12.159234] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/environment/path.dsv\n'}
+[12.159870] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/local_setup.bash\n'}
+[12.160134] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/local_setup.sh\n'}
+[12.160762] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/local_setup.zsh\n'}
+[12.161182] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/local_setup.dsv\n'}
+[12.161284] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/package.dsv\n'}
+[12.161520] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/ament_index/resource_index/packages/priority_tasks\n'}
+[12.162223] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/cmake/priority_tasksConfig.cmake\n'}
+[12.162347] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/cmake/priority_tasksConfig-version.cmake\n'}
+[12.162594] (priority_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/tal/install/priority_tasks/share/priority_tasks/package.xml\n'}
+[12.166181] (priority_tasks) CommandEnded: {'returncode': 0}
+[12.177963] (-) TimerEvent: {}
+[12.278443] (-) TimerEvent: {}
+[12.352151] (priority_tasks) JobEnded: {'identifier': 'priority_tasks', 'rc': 0}
+[12.353328] (-) EventReactorShutdown: {}

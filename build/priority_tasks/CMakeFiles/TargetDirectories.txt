@@ -1,0 +1,10 @@
+/home/teja/tal/build/priority_tasks/CMakeFiles/uninstall.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/priority_tasks_uninstall.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/priority_tasks.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/test.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/edit_cache.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/rebuild_cache.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/list_install_components.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/install.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/install/local.dir
+/home/teja/tal/build/priority_tasks/CMakeFiles/install/strip.dir
